@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xbrli:xbrl xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:ff="http://www.xbrl.org/2005/role/restatedLabel" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrll="http://www.xbrl.org/2003/linkbase" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2008/dgi/gp/est-gen/2008-01-30" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2008/dgi/gp/lc-es/2008-01-30" xmlns:dgi-lc-int="http://www.xbrl.org.es/es/2008/dgi/gp/lc-int/2008-01-30" xmlns:dgi-types="http://www.xbrl.org.es/es/2008/dgi/gp/types/2008-01-30" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:iic-com="http://www.cnmv.es/iic/com/1-2009/2009-03-31" xmlns:iic-fim="http://www.cnmv.es/iic/fim/1-2009/2009-03-31" xmlns:iic-ges="http://www.cnmv.es/iic/ges/1-2009/2009-03-31" xmlns:iic-com-fon="http://www.cnmv.es/iic/mep/1-2009/2009-03-31">
+  <xbrll:schemaRef xlink:type="simple" xlink:href="iic-fim-2009-03-31.xsd" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+  <xbrli:context id="FIM_S12017_E60519865_da">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_dpp">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_daa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_dpy">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_daq">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-04-01</xbrli:startDate>
+      <xbrli:endDate>2017-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_dpq">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_dpq2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-10-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_dpq3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_dpy2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-01-01</xbrli:startDate>
+      <xbrli:endDate>2015-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_dpy3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-01-01</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_dpy5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_dly3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_dly5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_ia">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2017-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_ipy">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_ipy2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2015-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_S12017_E60519865_ipy3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/E60519865">BESTINVER BOLSA FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <iic-fim:InformeFIM>
+    <iic-fim:InformacionGeneralFIM>
+      <iic-com-fon:DenominacionFondo contextRef="FIM_S12017_E60519865_ia">BESTINVER BOLSA FI</iic-com-fon:DenominacionFondo>
+      <iic-com:DescripcionGeneral>
+        <iic-com:RegistroCNMV decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">502</iic-com:RegistroCNMV>
+        <iic-com:XCode_TipoInforme_02 contextRef="FIM_S12017_E60519865_ia">02</iic-com:XCode_TipoInforme_02>
+        <iic-com:XCode_PeriodoInforme_02 contextRef="FIM_S12017_E60519865_ia">02</iic-com:XCode_PeriodoInforme_02>
+        <iic-com:AnoInforme contextRef="FIM_S12017_E60519865_ia">2017</iic-com:AnoInforme>
+        <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+      </iic-com:DescripcionGeneral>
+      <iic-com:RatingDepositario contextRef="FIM_S12017_E60519865_ia">Baa1</iic-com:RatingDepositario>
+      <iic-com-fon:FondoCompartimentos contextRef="FIM_S12017_E60519865_ia">false</iic-com-fon:FondoCompartimentos>
+    </iic-fim:InformacionGeneralFIM>
+    <iic-com:ConsultaCarteraInversiones>
+      <iic-com:DireccionInforme contextRef="FIM_S12017_E60519865_ia">JUAN DE MENA, 8 28014 - MADRID (MADRID)</iic-com:DireccionInforme>
+      <dgi-est-gen:CommunicationWays>
+        <dgi-est-gen:CommunicationType>
+          <dgi-lc-int:Xcode_UN3155.EM contextRef="FIM_S12017_E60519865_da">EM</dgi-lc-int:Xcode_UN3155.EM>
+        </dgi-est-gen:CommunicationType>
+        <dgi-est-gen:CommunicationValue contextRef="FIM_S12017_E60519865_da">bestinver@bestinver.es</dgi-est-gen:CommunicationValue>
+      </dgi-est-gen:CommunicationWays>
+      <iic-com:DirWebInforme contextRef="FIM_S12017_E60519865_ia">www.bestinver.es</iic-com:DirWebInforme>
+    </iic-com:ConsultaCarteraInversiones>
+    <iic-com:ConsultaGestora>
+      <dgi-est-gen:Address>
+        <dgi-est-gen:AddressFormat>
+          <dgi-lc-int:Xcode_UN3477.05 contextRef="FIM_S12017_E60519865_da">05</dgi-lc-int:Xcode_UN3477.05>
+        </dgi-est-gen:AddressFormat>
+        <dgi-est-gen:AddressLine contextRef="FIM_S12017_E60519865_da">JUAN DE MENA, 8 28014 - MADRID (MADRID) (915959100)</dgi-est-gen:AddressLine>
+      </dgi-est-gen:Address>
+      <dgi-est-gen:CommunicationWays>
+        <dgi-est-gen:CommunicationType>
+          <dgi-lc-int:Xcode_UN3155.EM contextRef="FIM_S12017_E60519865_da">EM</dgi-lc-int:Xcode_UN3155.EM>
+        </dgi-est-gen:CommunicationType>
+        <dgi-est-gen:CommunicationValue contextRef="FIM_S12017_E60519865_da">bestinver@bestinver.es</dgi-est-gen:CommunicationValue>
+      </dgi-est-gen:CommunicationWays>
+    </iic-com:ConsultaGestora>
+    <iic-fim:DatosFondoCompartimentoFIM>
+      <iic-com-fon:FechaRegistroFondo contextRef="FIM_S12017_E60519865_ia">1994-06-28</iic-com-fon:FechaRegistroFondo>
+      <iic-fim:PoliticaDivisaFIM>
+        <iic-fim:CategoriaFIM>
+          <iic-fim:XCode_TipoFIM_08 contextRef="FIM_S12017_E60519865_ia">08</iic-fim:XCode_TipoFIM_08>
+          <iic-com:XCode_VocacionInversora_08 contextRef="FIM_S12017_E60519865_ia">08</iic-com:XCode_VocacionInversora_08>
+          <iic-com:PerfilRiesgo contextRef="FIM_S12017_E60519865_ia">Alto</iic-com:PerfilRiesgo>
+        </iic-fim:CategoriaFIM>
+        <iic-com:PoliticaInversion contextRef="FIM_S12017_E60519865_ia">FI, RENTA VARIABLE EURO
+Las inversiones del fondo, se concentran principalmente en España y Portugal
+invirtiendo en compañías tanto de alta como de baja capitalización bursátil, con
+perspectivas de revalorización a medio y largo plazo.</iic-com:PoliticaInversion>
+        <iic-com:OperativaDerivados contextRef="FIM_S12017_E60519865_ia">El Fondo no opera en instrumentos derivados</iic-com:OperativaDerivados>
+        <iic-com:XCode_MetodologiaMedicionRiesgoMercado_01 contextRef="FIM_S12017_E60519865_ia">01</iic-com:XCode_MetodologiaMedicionRiesgoMercado_01>
+      </iic-fim:PoliticaDivisaFIM>
+      <iic-fim:DatosEconomicosFIM>
+        <iic-com:IndiceRotacionCartera decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.26</iic-com:IndiceRotacionCartera>
+        <iic-com:IndiceRotacionCartera decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.26</iic-com:IndiceRotacionCartera>
+        <iic-com:IndiceRotacionCartera decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.26</iic-com:IndiceRotacionCartera>
+        <iic-com:IndiceRotacionCartera decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">0.34</iic-com:IndiceRotacionCartera>
+        <iic-com:RentabilidadMediaLiquidez decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:RentabilidadMediaLiquidez>
+        <iic-com:RentabilidadMediaLiquidez decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:RentabilidadMediaLiquidez>
+        <iic-com:RentabilidadMediaLiquidez decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:RentabilidadMediaLiquidez>
+        <iic-com:RentabilidadMediaLiquidez decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">0.00</iic-com:RentabilidadMediaLiquidez>
+        <iic-fim:DatosClaseFIM>
+          <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+          <iic-com-fon:DatosGeneralesClase>
+            <iic-com-fon:NumeroParticipaciones decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">5024569.83</iic-com-fon:NumeroParticipaciones>
+            <iic-com-fon:NumeroParticipaciones decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">5098738.46</iic-com-fon:NumeroParticipaciones>
+            <iic-com-fon:NumeroParticipes decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">4206</iic-com-fon:NumeroParticipes>
+            <iic-com-fon:NumeroParticipes decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">4281</iic-com-fon:NumeroParticipes>
+            <iic-com-fon:BeneficioBrutoParticipacion decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="EUR">0.00</iic-com-fon:BeneficioBrutoParticipacion>
+            <iic-com-fon:BeneficioBrutoParticipacion decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="EUR">0.00</iic-com-fon:BeneficioBrutoParticipacion>
+            <iic-com:DistribuyeDividendos contextRef="FIM_S12017_E60519865_da">false</iic-com:DistribuyeDividendos>
+            <iic-com:InversionMinimaDescripcion contextRef="FIM_S12017_E60519865_ia">6.000 Euros</iic-com:InversionMinimaDescripcion>
+            <iic-com:Patrimonio decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">320244737</iic-com:Patrimonio>
+            <iic-com:Patrimonio decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">290295256</iic-com:Patrimonio>
+            <iic-com:Patrimonio decimals="0" contextRef="FIM_S12017_E60519865_ipy2" unitRef="EUR">296522088</iic-com:Patrimonio>
+            <iic-com:Patrimonio decimals="0" contextRef="FIM_S12017_E60519865_ipy3" unitRef="EUR">321790406</iic-com:Patrimonio>
+            <iic-com:ValorLiquidativo decimals="4" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">63.7358</iic-com:ValorLiquidativo>
+            <iic-com:ValorLiquidativo decimals="4" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">56.9347</iic-com:ValorLiquidativo>
+            <iic-com:ValorLiquidativo decimals="4" contextRef="FIM_S12017_E60519865_ipy2" unitRef="EUR">52.3856</iic-com:ValorLiquidativo>
+            <iic-com:ValorLiquidativo decimals="4" contextRef="FIM_S12017_E60519865_ipy3" unitRef="EUR">47.6364</iic-com:ValorLiquidativo>
+            <iic-com-fon:ComisionesAplicadas>
+              <iic-com-fon:ComisionGestion>
+                <iic-com:ComisionGestionCobradaPatrimonio decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.87</iic-com:ComisionGestionCobradaPatrimonio>
+                <iic-com:ComisionGestionCobradaPatrimonio decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.87</iic-com:ComisionGestionCobradaPatrimonio>
+                <iic-com-fon:ComisionGestionCobrada decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.87</iic-com-fon:ComisionGestionCobrada>
+                <iic-com-fon:ComisionGestionCobrada decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.87</iic-com-fon:ComisionGestionCobrada>
+                <iic-com-fon:XCode_BaseCalculoComisionGestion_01 contextRef="FIM_S12017_E60519865_daa">01</iic-com-fon:XCode_BaseCalculoComisionGestion_01>
+              </iic-com-fon:ComisionGestion>
+              <iic-com-fon:ComisionDepositario>
+                <iic-com-fon:ComisionDepositarioCobrada decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.02</iic-com-fon:ComisionDepositarioCobrada>
+                <iic-com-fon:ComisionDepositarioCobrada decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.02</iic-com-fon:ComisionDepositarioCobrada>
+              </iic-com-fon:ComisionDepositario>
+            </iic-com-fon:ComisionesAplicadas>
+          </iic-com-fon:DatosGeneralesClase>
+          <iic-fim:RentabilidadClaseFIM>
+            <iic-com:RentabilidadIIC decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">11.95</iic-com:RentabilidadIIC>
+            <iic-com:RentabilidadIIC decimals="2" contextRef="FIM_S12017_E60519865_daq" unitRef="pure">4.69</iic-com:RentabilidadIIC>
+            <iic-com:RentabilidadIIC decimals="2" contextRef="FIM_S12017_E60519865_dpq" unitRef="pure">6.93</iic-com:RentabilidadIIC>
+            <iic-com:RentabilidadIIC decimals="2" contextRef="FIM_S12017_E60519865_dpq2" unitRef="pure">7.40</iic-com:RentabilidadIIC>
+            <iic-com:RentabilidadIIC decimals="2" contextRef="FIM_S12017_E60519865_dpq3" unitRef="pure">8.58</iic-com:RentabilidadIIC>
+            <iic-com:RentabilidadIIC decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">8.68</iic-com:RentabilidadIIC>
+            <iic-com:RentabilidadIIC decimals="2" contextRef="FIM_S12017_E60519865_dpy2" unitRef="pure">9.97</iic-com:RentabilidadIIC>
+            <iic-com:RentabilidadIIC decimals="2" contextRef="FIM_S12017_E60519865_dpy3" unitRef="pure">-4.02</iic-com:RentabilidadIIC>
+            <iic-com:RentabilidadIIC decimals="2" contextRef="FIM_S12017_E60519865_dpy5" unitRef="pure">14.88</iic-com:RentabilidadIIC>
+          </iic-fim:RentabilidadClaseFIM>
+          <iic-com-fon:RentabilidadExtremaClase>
+            <iic-com-fon:RentabilidadMinimaValor decimals="2" contextRef="FIM_S12017_E60519865_daq" unitRef="pure">-1.25</iic-com-fon:RentabilidadMinimaValor>
+            <iic-com-fon:RentabilidadMinimaValor decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">-1.25</iic-com-fon:RentabilidadMinimaValor>
+            <iic-com-fon:RentabilidadMinimaValor decimals="2" contextRef="FIM_S12017_E60519865_dly3" unitRef="pure">-6.34</iic-com-fon:RentabilidadMinimaValor>
+            <iic-com-fon:RentabilidadMinimaFecha contextRef="FIM_S12017_E60519865_daq">2017-05-18</iic-com-fon:RentabilidadMinimaFecha>
+            <iic-com-fon:RentabilidadMinimaFecha contextRef="FIM_S12017_E60519865_dpy">2017-05-18</iic-com-fon:RentabilidadMinimaFecha>
+            <iic-com-fon:RentabilidadMinimaFecha contextRef="FIM_S12017_E60519865_dly3">2016-06-24</iic-com-fon:RentabilidadMinimaFecha>
+            <iic-com-fon:RentabilidadMaximaValor decimals="2" contextRef="FIM_S12017_E60519865_daq" unitRef="pure">1.83</iic-com-fon:RentabilidadMaximaValor>
+            <iic-com-fon:RentabilidadMaximaValor decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">1.83</iic-com-fon:RentabilidadMaximaValor>
+            <iic-com-fon:RentabilidadMaximaValor decimals="2" contextRef="FIM_S12017_E60519865_dly3" unitRef="pure">3.10</iic-com-fon:RentabilidadMaximaValor>
+            <iic-com-fon:RentabilidadMaximaFecha contextRef="FIM_S12017_E60519865_daq">2017-04-24</iic-com-fon:RentabilidadMaximaFecha>
+            <iic-com-fon:RentabilidadMaximaFecha contextRef="FIM_S12017_E60519865_dpy">2017-04-24</iic-com-fon:RentabilidadMaximaFecha>
+            <iic-com-fon:RentabilidadMaximaFecha contextRef="FIM_S12017_E60519865_dly3">2016-01-22</iic-com-fon:RentabilidadMaximaFecha>
+          </iic-com-fon:RentabilidadExtremaClase>
+          <iic-com:PeriodicidadCalculoVL>
+            <iic-com:XCode_PeriodicidadCalculoVL_01 contextRef="FIM_S12017_E60519865_da">01</iic-com:XCode_PeriodicidadCalculoVL_01>
+          </iic-com:PeriodicidadCalculoVL>
+          <iic-fim:MedidasRiesgoFIM>
+            <iic-com-fon:VolatilidadValorLiquidativo decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">7.85</iic-com-fon:VolatilidadValorLiquidativo>
+            <iic-com-fon:VolatilidadValorLiquidativo decimals="2" contextRef="FIM_S12017_E60519865_daq" unitRef="pure">8.49</iic-com-fon:VolatilidadValorLiquidativo>
+            <iic-com-fon:VolatilidadValorLiquidativo decimals="2" contextRef="FIM_S12017_E60519865_dpq" unitRef="pure">7.18</iic-com-fon:VolatilidadValorLiquidativo>
+            <iic-com-fon:VolatilidadValorLiquidativo decimals="2" contextRef="FIM_S12017_E60519865_dpq2" unitRef="pure">9.24</iic-com-fon:VolatilidadValorLiquidativo>
+            <iic-com-fon:VolatilidadValorLiquidativo decimals="2" contextRef="FIM_S12017_E60519865_dpq3" unitRef="pure">11.44</iic-com-fon:VolatilidadValorLiquidativo>
+            <iic-com-fon:VolatilidadValorLiquidativo decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">16.41</iic-com-fon:VolatilidadValorLiquidativo>
+            <iic-com-fon:VolatilidadValorLiquidativo decimals="2" contextRef="FIM_S12017_E60519865_dpy2" unitRef="pure">16.95</iic-com-fon:VolatilidadValorLiquidativo>
+            <iic-com-fon:VolatilidadValorLiquidativo decimals="2" contextRef="FIM_S12017_E60519865_dpy3" unitRef="pure">12.70</iic-com-fon:VolatilidadValorLiquidativo>
+            <iic-com-fon:VolatilidadValorLiquidativo decimals="2" contextRef="FIM_S12017_E60519865_dpy5" unitRef="pure">16.33</iic-com-fon:VolatilidadValorLiquidativo>
+            <iic-com-fon:VolatilidadIbex decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">12.57</iic-com-fon:VolatilidadIbex>
+            <iic-com-fon:VolatilidadIbex decimals="2" contextRef="FIM_S12017_E60519865_daq" unitRef="pure">13.54</iic-com-fon:VolatilidadIbex>
+            <iic-com-fon:VolatilidadIbex decimals="2" contextRef="FIM_S12017_E60519865_dpq" unitRef="pure">11.44</iic-com-fon:VolatilidadIbex>
+            <iic-com-fon:VolatilidadIbex decimals="2" contextRef="FIM_S12017_E60519865_dpq2" unitRef="pure">14.37</iic-com-fon:VolatilidadIbex>
+            <iic-com-fon:VolatilidadIbex decimals="2" contextRef="FIM_S12017_E60519865_dpq3" unitRef="pure">17.93</iic-com-fon:VolatilidadIbex>
+            <iic-com-fon:VolatilidadIbex decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">25.68</iic-com-fon:VolatilidadIbex>
+            <iic-com-fon:VolatilidadIbex decimals="2" contextRef="FIM_S12017_E60519865_dpy2" unitRef="pure">21.58</iic-com-fon:VolatilidadIbex>
+            <iic-com-fon:VolatilidadIbex decimals="2" contextRef="FIM_S12017_E60519865_dpy3" unitRef="pure">18.34</iic-com-fon:VolatilidadIbex>
+            <iic-com-fon:VolatilidadIbex decimals="2" contextRef="FIM_S12017_E60519865_dpy5" unitRef="pure">27.76</iic-com-fon:VolatilidadIbex>
+            <iic-com-fon:VolatilidadLetrasTesoro decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.29</iic-com-fon:VolatilidadLetrasTesoro>
+            <iic-com-fon:VolatilidadLetrasTesoro decimals="2" contextRef="FIM_S12017_E60519865_daq" unitRef="pure">0.39</iic-com-fon:VolatilidadLetrasTesoro>
+            <iic-com-fon:VolatilidadLetrasTesoro decimals="2" contextRef="FIM_S12017_E60519865_dpq" unitRef="pure">0.15</iic-com-fon:VolatilidadLetrasTesoro>
+            <iic-com-fon:VolatilidadLetrasTesoro decimals="2" contextRef="FIM_S12017_E60519865_dpq2" unitRef="pure">0.35</iic-com-fon:VolatilidadLetrasTesoro>
+            <iic-com-fon:VolatilidadLetrasTesoro decimals="2" contextRef="FIM_S12017_E60519865_dpq3" unitRef="pure">1.18</iic-com-fon:VolatilidadLetrasTesoro>
+            <iic-com-fon:VolatilidadLetrasTesoro decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">0.69</iic-com-fon:VolatilidadLetrasTesoro>
+            <iic-com-fon:VolatilidadLetrasTesoro decimals="2" contextRef="FIM_S12017_E60519865_dpy2" unitRef="pure">0.24</iic-com-fon:VolatilidadLetrasTesoro>
+            <iic-com-fon:VolatilidadLetrasTesoro decimals="2" contextRef="FIM_S12017_E60519865_dpy3" unitRef="pure">0.80</iic-com-fon:VolatilidadLetrasTesoro>
+            <iic-com-fon:VolatilidadLetrasTesoro decimals="2" contextRef="FIM_S12017_E60519865_dpy5" unitRef="pure">2.64</iic-com-fon:VolatilidadLetrasTesoro>
+            <iic-com-fon:VolatilidadIndice>
+              <iic-com-fon:VolatilidadElemento contextRef="FIM_S12017_E60519865_da">Indice</iic-com-fon:VolatilidadElemento>
+              <iic-com-fon:VolatilidadElementoValor decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com-fon:VolatilidadElementoValor>
+              <iic-com-fon:VolatilidadElementoValor decimals="2" contextRef="FIM_S12017_E60519865_daq" unitRef="pure">0.00</iic-com-fon:VolatilidadElementoValor>
+              <iic-com-fon:VolatilidadElementoValor decimals="2" contextRef="FIM_S12017_E60519865_dpq" unitRef="pure">0.00</iic-com-fon:VolatilidadElementoValor>
+              <iic-com-fon:VolatilidadElementoValor decimals="2" contextRef="FIM_S12017_E60519865_dpq2" unitRef="pure">0.00</iic-com-fon:VolatilidadElementoValor>
+              <iic-com-fon:VolatilidadElementoValor decimals="2" contextRef="FIM_S12017_E60519865_dpq3" unitRef="pure">0.00</iic-com-fon:VolatilidadElementoValor>
+              <iic-com-fon:VolatilidadElementoValor decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">0.00</iic-com-fon:VolatilidadElementoValor>
+              <iic-com-fon:VolatilidadElementoValor decimals="2" contextRef="FIM_S12017_E60519865_dpy2" unitRef="pure">0.09</iic-com-fon:VolatilidadElementoValor>
+              <iic-com-fon:VolatilidadElementoValor decimals="2" contextRef="FIM_S12017_E60519865_dpy3" unitRef="pure">4.74</iic-com-fon:VolatilidadElementoValor>
+            </iic-com-fon:VolatilidadIndice>
+            <iic-com-fon:VolatilidadVaRHistorica decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">6.55</iic-com-fon:VolatilidadVaRHistorica>
+            <iic-com-fon:VolatilidadVaRHistorica decimals="2" contextRef="FIM_S12017_E60519865_daq" unitRef="pure">6.55</iic-com-fon:VolatilidadVaRHistorica>
+            <iic-com-fon:VolatilidadVaRHistorica decimals="2" contextRef="FIM_S12017_E60519865_dpq" unitRef="pure">7.77</iic-com-fon:VolatilidadVaRHistorica>
+            <iic-com-fon:VolatilidadVaRHistorica decimals="2" contextRef="FIM_S12017_E60519865_dpq2" unitRef="pure">7.77</iic-com-fon:VolatilidadVaRHistorica>
+            <iic-com-fon:VolatilidadVaRHistorica decimals="2" contextRef="FIM_S12017_E60519865_dpq3" unitRef="pure">7.77</iic-com-fon:VolatilidadVaRHistorica>
+            <iic-com-fon:VolatilidadVaRHistorica decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">7.77</iic-com-fon:VolatilidadVaRHistorica>
+            <iic-com-fon:VolatilidadVaRHistorica decimals="2" contextRef="FIM_S12017_E60519865_dpy2" unitRef="pure">8.52</iic-com-fon:VolatilidadVaRHistorica>
+            <iic-com-fon:VolatilidadVaRHistorica decimals="2" contextRef="FIM_S12017_E60519865_dpy3" unitRef="pure">8.52</iic-com-fon:VolatilidadVaRHistorica>
+            <iic-com-fon:VolatilidadVaRHistorica decimals="2" contextRef="FIM_S12017_E60519865_dpy5" unitRef="pure">12.77</iic-com-fon:VolatilidadVaRHistorica>
+          </iic-fim:MedidasRiesgoFIM>
+          <iic-fim:GastosClaseFIM>
+            <iic-com:RatioTotalGastos decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.89</iic-com:RatioTotalGastos>
+            <iic-com:RatioTotalGastos decimals="2" contextRef="FIM_S12017_E60519865_daq" unitRef="pure">0.45</iic-com:RatioTotalGastos>
+            <iic-com:RatioTotalGastos decimals="2" contextRef="FIM_S12017_E60519865_dpq" unitRef="pure">0.44</iic-com:RatioTotalGastos>
+            <iic-com:RatioTotalGastos decimals="2" contextRef="FIM_S12017_E60519865_dpq2" unitRef="pure">0.45</iic-com:RatioTotalGastos>
+            <iic-com:RatioTotalGastos decimals="2" contextRef="FIM_S12017_E60519865_dpq3" unitRef="pure">0.45</iic-com:RatioTotalGastos>
+            <iic-com:RatioTotalGastos decimals="2" contextRef="FIM_S12017_E60519865_dpy" unitRef="pure">1.80</iic-com:RatioTotalGastos>
+            <iic-com:RatioTotalGastos decimals="2" contextRef="FIM_S12017_E60519865_dpy2" unitRef="pure">1.80</iic-com:RatioTotalGastos>
+            <iic-com:RatioTotalGastos decimals="2" contextRef="FIM_S12017_E60519865_dpy3" unitRef="pure">1.80</iic-com:RatioTotalGastos>
+            <iic-com:RatioTotalGastos decimals="2" contextRef="FIM_S12017_E60519865_dpy5" unitRef="pure">1.80</iic-com:RatioTotalGastos>
+            <iic-com:RatioGastosEstimado contextRef="FIM_S12017_E60519865_da">true</iic-com:RatioGastosEstimado>
+          </iic-fim:GastosClaseFIM>
+          <iic-com:EvolucionValorLiquidativo>
+            <iic-com:NombreFicheroAdjunto contextRef="FIM_S12017_E60519865_da">evolucion.png</iic-com:NombreFicheroAdjunto>
+            <iic-com:TipoMimeFicheroAdjunto contextRef="FIM_S12017_E60519865_da">image/png</iic-com:TipoMimeFicheroAdjunto>
+            <iic-com:ContenidoFicheroAdjunto contextRef="FIM_S12017_E60519865_da">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
+EAAAAABJRU5ErkJggg==</iic-com:ContenidoFicheroAdjunto>
+          </iic-com:EvolucionValorLiquidativo>
+          <iic-com:RentabilidadUltimosAnnos>
+            <iic-com:NombreFicheroAdjunto contextRef="FIM_S12017_E60519865_da">rentabilidad.png</iic-com:NombreFicheroAdjunto>
+            <iic-com:TipoMimeFicheroAdjunto contextRef="FIM_S12017_E60519865_da">image/png</iic-com:TipoMimeFicheroAdjunto>
+            <iic-com:ContenidoFicheroAdjunto contextRef="FIM_S12017_E60519865_da">iVBORw0KGgoAAAANSUhEUgAAAfQAAAEsCAYAAAA1u0HIAAAgUElEQVR42u2dD2gUd77AA7IEEZGC
+SJEQSiAEKUFECBIOCUEoRwiliHDK0Ra5C4RQirTB93xBSjnsXVvxziBeuCDhsKVPzuuruWOjd9gj
+5wWveCfFBl8QX0Jccj7NufW2NrdN9fv8zjF5k83M7Mzs7PzZ/XxgyP7Wdfa7399v5jO/3/xmpkEA
+AAAg9TSQAgAAAIQOAAAACB0AAAAQelqT3tCwstTSeqJeN9BOouBHP/qREZf+pX0nh08++UQ2bNgg
+LS0t8stf/lIWFxclk8kg9LTsjMxFK+3555+XY8eO1cUO1unzft9nR43QEXp4Mg8ad61tE3b76Ch+
+Y3t7+5rv0vcQeooby+HDhyOL5cUXX5S2tjbjqBChI/SktCeEHo/M3eJ2q1uEHg7asXvw4IGcPXtW
+WltbZePGjfLxxx8j9DT1LorFoiFx871nnnmmbns67KjpOdNOklmH9dTu2b4RekUbzOPHj1cNv5ei
+51LeeOMN49yK/vv69euNI+Zbt265rvutt96SZ599VhobG6W3t1fu3btX9ijUypUrV+R73/uecaSo
+37t582bp7+83jiKdvle/Q2PT72xqapKxsbGq9tCvXbsmO3fuNOLr7Ow0cuL2ea+/Kci6nfjwww9l
+z549q77z5ZdflqtXr4ZSz0ePHl2p5927d8vNmzfl0aNH8vrrr8umTZuM9zs6Otasx+v3efkN5dqT
+9b2lpSUZHBw0Yl63bl1F7c0rfuvST278Cl1/z6FDh2TLli3GuvWv1pVdG/TTfqo1GuanbqvRTqPM
+V5hCD9qe3fbbceUEofvYwO7evbvynibdilbmc889Z7tBaSXqjsdu3QcPHlzzeW1cfoTu9Jm9e/c6
+fu673/3ums9PTk5WRegLCwvGiIb13/Ugwm1n6vU3BVm3Hbpxehm+C7Oed+zYIfv27VvzfldXV6Dv
+8/Ib/Oz0X3jhBV/icGtvXvBbl35y41ekhULB9lypLtu2bTP+PUj7SbrQg7bTqPNljVvFp2LV/eb4
++HhoQ/du7bncfjuunCB0jxuY7mz0KEzLevQ0MzOz6vN6FGZ+Xo/AtDc/MjKy8p5Wlt269XzX7du3
+ZWpqauU97WX42TEeOHBApqenjdeXL19e+aweOTqtRzfQ5eXlVY1I36uG0K2nKt577z0jN319fa6/
+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
+RU5ErkJggg==</iic-com:ContenidoFicheroAdjunto>
+          </iic-com:RentabilidadUltimosAnnos>
+          <iic-com:ModificacionPoliticaInversion>
+            <iic-com:ModificadaPoliticaInversion contextRef="FIM_S12017_E60519865_da">false</iic-com:ModificadaPoliticaInversion>
+          </iic-com:ModificacionPoliticaInversion>
+        </iic-fim:DatosClaseFIM>
+        <iic-fim:DistribucionPatrimonioFIM>
+          <iic-com:DistribucionPatrimonioInversionesFinancieras decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">295748194</iic-com:DistribucionPatrimonioInversionesFinancieras>
+          <iic-com:DistribucionPatrimonioInversionesFinancieras decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">276775000</iic-com:DistribucionPatrimonioInversionesFinancieras>
+          <iic-com:DistribucionPatrimonioCarteraInterior decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">217951305</iic-com:DistribucionPatrimonioCarteraInterior>
+          <iic-com:DistribucionPatrimonioCarteraInterior decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">202037135</iic-com:DistribucionPatrimonioCarteraInterior>
+          <iic-com:DistribucionPatrimonioCarteraExterior decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">77796888</iic-com:DistribucionPatrimonioCarteraExterior>
+          <iic-com:DistribucionPatrimonioCarteraExterior decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">74737865</iic-com:DistribucionPatrimonioCarteraExterior>
+          <iic-com:DistribucionPatrimonioInteresesCartera decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">0</iic-com:DistribucionPatrimonioInteresesCartera>
+          <iic-com:DistribucionPatrimonioInteresesCartera decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">0</iic-com:DistribucionPatrimonioInteresesCartera>
+          <iic-com:DistribucionPatrimonioInversionesDudosas decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">0</iic-com:DistribucionPatrimonioInversionesDudosas>
+          <iic-com:DistribucionPatrimonioInversionesDudosas decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">0</iic-com:DistribucionPatrimonioInversionesDudosas>
+          <iic-com:DistribucionPatrimonioLiquidez decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">39200334</iic-com:DistribucionPatrimonioLiquidez>
+          <iic-com:DistribucionPatrimonioLiquidez decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">16252551</iic-com:DistribucionPatrimonioLiquidez>
+          <iic-com:DistribucionPatrimonioResto decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">-14703791</iic-com:DistribucionPatrimonioResto>
+          <iic-com:DistribucionPatrimonioResto decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">-2732295</iic-com:DistribucionPatrimonioResto>
+          <iic-com:DistribucionPatrimonioTotal decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">320244737</iic-com:DistribucionPatrimonioTotal>
+          <iic-com:DistribucionPatrimonioTotal decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">290295256</iic-com:DistribucionPatrimonioTotal>
+        </iic-fim:DistribucionPatrimonioFIM>
+        <iic-fim:VariacionPatrimonialFIM>
+          <iic-com:VariacionPatrimonialFinPeriodoAnterior decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="EUR">290295256</iic-com:VariacionPatrimonialFinPeriodoAnterior>
+          <iic-com:VariacionPatrimonialFinPeriodoAnterior decimals="0" contextRef="FIM_S12017_E60519865_dpp" unitRef="EUR">263279031</iic-com:VariacionPatrimonialFinPeriodoAnterior>
+          <iic-com:VariacionPatrimonialFinPeriodoAnterior decimals="0" contextRef="FIM_S12017_E60519865_daa" unitRef="EUR">290295256</iic-com:VariacionPatrimonialFinPeriodoAnterior>
+          <iic-com:VariacionPatrimonialSuscripciones decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-1.42</iic-com:VariacionPatrimonialSuscripciones>
+          <iic-com:VariacionPatrimonialSuscripciones decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">-5.68</iic-com:VariacionPatrimonialSuscripciones>
+          <iic-com:VariacionPatrimonialSuscripciones decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">-1.42</iic-com:VariacionPatrimonialSuscripciones>
+          <iic-com:VariacionPatrimonialSuscripcionesRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-72.48</iic-com:VariacionPatrimonialSuscripcionesRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialBeneficioDistribuido decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialBeneficioDistribuido>
+          <iic-com:VariacionPatrimonialBeneficioDistribuido decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialBeneficioDistribuido>
+          <iic-com:VariacionPatrimonialBeneficioDistribuido decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialBeneficioDistribuido>
+          <iic-com:VariacionPatrimonialBeneficioDistribuidoRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialBeneficioDistribuidoRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialRendimientoNeto decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">11.18</iic-com:VariacionPatrimonialRendimientoNeto>
+          <iic-com:VariacionPatrimonialRendimientoNeto decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">15.36</iic-com:VariacionPatrimonialRendimientoNeto>
+          <iic-com:VariacionPatrimonialRendimientoNeto decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">11.18</iic-com:VariacionPatrimonialRendimientoNeto>
+          <iic-com:VariacionPatrimonialRendimientoNetoRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-19.96</iic-com:VariacionPatrimonialRendimientoNetoRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialRendimientoGestion decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">12.18</iic-com:VariacionPatrimonialRendimientoGestion>
+          <iic-com:VariacionPatrimonialRendimientoGestion decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">16.35</iic-com:VariacionPatrimonialRendimientoGestion>
+          <iic-com:VariacionPatrimonialRendimientoGestion decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">12.18</iic-com:VariacionPatrimonialRendimientoGestion>
+          <iic-com:VariacionPatrimonialRendimientoGestionRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-18.02</iic-com:VariacionPatrimonialRendimientoGestionRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialIntereses decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-0.01</iic-com:VariacionPatrimonialIntereses>
+          <iic-com:VariacionPatrimonialIntereses decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialIntereses>
+          <iic-com:VariacionPatrimonialIntereses decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">-0.01</iic-com:VariacionPatrimonialIntereses>
+          <iic-com:VariacionPatrimonialInteresesRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialInteresesRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialDividendos decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">1.82</iic-com:VariacionPatrimonialDividendos>
+          <iic-com:VariacionPatrimonialDividendos decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.52</iic-com:VariacionPatrimonialDividendos>
+          <iic-com:VariacionPatrimonialDividendos decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">1.82</iic-com:VariacionPatrimonialDividendos>
+          <iic-com:VariacionPatrimonialDividendosRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">289.19</iic-com:VariacionPatrimonialDividendosRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialRentaFija decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialRentaFija>
+          <iic-com:VariacionPatrimonialRentaFija decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialRentaFija>
+          <iic-com:VariacionPatrimonialRentaFija decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialRentaFija>
+          <iic-com:VariacionPatrimonialRentaFijaRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialRentaFijaRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialRentaVariable decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">10.37</iic-com:VariacionPatrimonialRentaVariable>
+          <iic-com:VariacionPatrimonialRentaVariable decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">15.83</iic-com:VariacionPatrimonialRentaVariable>
+          <iic-com:VariacionPatrimonialRentaVariable decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">10.37</iic-com:VariacionPatrimonialRentaVariable>
+          <iic-com:VariacionPatrimonialRentaVariableRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-27.94</iic-com:VariacionPatrimonialRentaVariableRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialDepositos decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialDepositos>
+          <iic-com:VariacionPatrimonialDepositos decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialDepositos>
+          <iic-com:VariacionPatrimonialDepositos decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialDepositos>
+          <iic-com:VariacionPatrimonialDepositosRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialDepositosRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialDerivados decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialDerivados>
+          <iic-com:VariacionPatrimonialDerivados decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialDerivados>
+          <iic-com:VariacionPatrimonialDerivados decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialDerivados>
+          <iic-com:VariacionPatrimonialDerivadosRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialDerivadosRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialIIC decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialIIC>
+          <iic-com:VariacionPatrimonialIIC decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialIIC>
+          <iic-com:VariacionPatrimonialIIC decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialIIC>
+          <iic-com:VariacionPatrimonialIICRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialIICRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialOtrosResultados decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosResultados>
+          <iic-com:VariacionPatrimonialOtrosResultados decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosResultados>
+          <iic-com:VariacionPatrimonialOtrosResultados decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosResultados>
+          <iic-com:VariacionPatrimonialOtrosResultadosRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosResultadosRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialOtrosRendimientos decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosRendimientos>
+          <iic-com:VariacionPatrimonialOtrosRendimientos decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosRendimientos>
+          <iic-com:VariacionPatrimonialOtrosRendimientos decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosRendimientos>
+          <iic-com:VariacionPatrimonialOtrosRendimientosRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosRendimientosRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialGastosRepercutidos decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-1.01</iic-com:VariacionPatrimonialGastosRepercutidos>
+          <iic-com:VariacionPatrimonialGastosRepercutidos decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">-0.99</iic-com:VariacionPatrimonialGastosRepercutidos>
+          <iic-com:VariacionPatrimonialGastosRepercutidos decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">-1.01</iic-com:VariacionPatrimonialGastosRepercutidos>
+          <iic-com:VariacionPatrimonialGastosRepercutidosRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">12.17</iic-com:VariacionPatrimonialGastosRepercutidosRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialComisionGestion decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-0.87</iic-com:VariacionPatrimonialComisionGestion>
+          <iic-com:VariacionPatrimonialComisionGestion decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">-0.88</iic-com:VariacionPatrimonialComisionGestion>
+          <iic-com:VariacionPatrimonialComisionGestion decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">-0.87</iic-com:VariacionPatrimonialComisionGestion>
+          <iic-com:VariacionPatrimonialComisionGestionRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">8.49</iic-com:VariacionPatrimonialComisionGestionRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialComisionDepositario decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-0.02</iic-com:VariacionPatrimonialComisionDepositario>
+          <iic-com:VariacionPatrimonialComisionDepositario decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">-0.02</iic-com:VariacionPatrimonialComisionDepositario>
+          <iic-com:VariacionPatrimonialComisionDepositario decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">-0.02</iic-com:VariacionPatrimonialComisionDepositario>
+          <iic-com:VariacionPatrimonialComisionDepositarioRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">8.49</iic-com:VariacionPatrimonialComisionDepositarioRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialServiciosExteriores decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialServiciosExteriores>
+          <iic-com:VariacionPatrimonialServiciosExteriores decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialServiciosExteriores>
+          <iic-com:VariacionPatrimonialServiciosExteriores decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialServiciosExteriores>
+          <iic-com:VariacionPatrimonialServiciosExterioresRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-1.54</iic-com:VariacionPatrimonialServiciosExterioresRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialGastosCorrientes decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialGastosCorrientes>
+          <iic-com:VariacionPatrimonialGastosCorrientes decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialGastosCorrientes>
+          <iic-com:VariacionPatrimonialGastosCorrientes decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialGastosCorrientes>
+          <iic-com:VariacionPatrimonialGastosCorrientesRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">10.22</iic-com:VariacionPatrimonialGastosCorrientesRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialOtrosGastos decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-0.12</iic-com:VariacionPatrimonialOtrosGastos>
+          <iic-com:VariacionPatrimonialOtrosGastos decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">-0.08</iic-com:VariacionPatrimonialOtrosGastos>
+          <iic-com:VariacionPatrimonialOtrosGastos decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">-0.12</iic-com:VariacionPatrimonialOtrosGastos>
+          <iic-com:VariacionPatrimonialOtrosGastosRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">52.28</iic-com:VariacionPatrimonialOtrosGastosRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialIngresos decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialIngresos>
+          <iic-com:VariacionPatrimonialIngresos decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialIngresos>
+          <iic-com:VariacionPatrimonialIngresos decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialIngresos>
+          <iic-com:VariacionPatrimonialIngresosRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-100.00</iic-com:VariacionPatrimonialIngresosRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialDescuentos decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialDescuentos>
+          <iic-com:VariacionPatrimonialDescuentos decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialDescuentos>
+          <iic-com:VariacionPatrimonialDescuentos decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialDescuentos>
+          <iic-com:VariacionPatrimonialDescuentosRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialDescuentosRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialRetrocedidas decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialRetrocedidas>
+          <iic-com:VariacionPatrimonialRetrocedidas decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialRetrocedidas>
+          <iic-com:VariacionPatrimonialRetrocedidas decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialRetrocedidas>
+          <iic-com:VariacionPatrimonialRetrocedidasRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialRetrocedidasRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialOtrosIngresos decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosIngresos>
+          <iic-com:VariacionPatrimonialOtrosIngresos decimals="2" contextRef="FIM_S12017_E60519865_dpp" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosIngresos>
+          <iic-com:VariacionPatrimonialOtrosIngresos decimals="2" contextRef="FIM_S12017_E60519865_daa" unitRef="pure">0.00</iic-com:VariacionPatrimonialOtrosIngresos>
+          <iic-com:VariacionPatrimonialOtrosIngresosRespectoFinAnterior decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-100.00</iic-com:VariacionPatrimonialOtrosIngresosRespectoFinAnterior>
+          <iic-com:VariacionPatrimonialFinPeriodoActual decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="EUR">320244737</iic-com:VariacionPatrimonialFinPeriodoActual>
+          <iic-com:VariacionPatrimonialFinPeriodoActual decimals="0" contextRef="FIM_S12017_E60519865_dpp" unitRef="EUR">290295256</iic-com:VariacionPatrimonialFinPeriodoActual>
+          <iic-com:VariacionPatrimonialFinPeriodoActual decimals="0" contextRef="FIM_S12017_E60519865_daa" unitRef="EUR">320244737</iic-com:VariacionPatrimonialFinPeriodoActual>
+        </iic-fim:VariacionPatrimonialFIM>
+      </iic-fim:DatosEconomicosFIM>
+      <iic-fim:InversionesFinancierasFIM>
+        <iic-com:InversionesFinancierasValorEstimado>
+          <iic-com:InversionesFinancierasInterior>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0139140174</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|INMOBILIARIA COLONIAL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">5659122</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">1.77</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">4883849</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">1.68</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0105630315</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|CIE AUTOMOTIVE SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">2322118</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">0.73</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">4985904</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">1.72</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0173516115</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|REPSOL YPF</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">4766838</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">1.64</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">4884983</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">1.53</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0113679I37</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|BANKINTER S.A</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">3555794</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">1.11</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">3244965</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">1.12</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0184262212</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|VISCOFAN SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">9828118</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">3.07</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">8888944</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">3.06</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0118594417</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|INDRA SISTEMAS SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">12898339</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">4.03</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">12737593</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">4.39</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0673516995</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|REPSOL YPF</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">125032</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">0.04</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0140609019</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|CRITERIA CAIXA CORPORATION</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">3169221</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">1.09</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">8703057</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">2.72</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0121975009</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|CONSTRUCCIONES Y AUXILIAR DE FE</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">17777711</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">6.12</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">15539359</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">4.85</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0164180012</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|MIQUEL Y COSTAS  AND  MIQUEL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">9304961</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">3.21</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">8764160</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">2.74</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0124244E34</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|MAPFRE</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">3849570</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">1.33</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0117160111</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|CORP FINANCIERA ALBA SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">13120413</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">4.52</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">9744550</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">3.04</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0114297015</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|BARON DE LEY</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">8688367</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">2.99</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">8215778</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">2.57</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0105075008</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|EUSKALTEL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">15164941</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">4.74</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">13707869</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">4.72</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0115056139</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|BOLSAS Y MERCADOS ESPANOLES SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">2312637</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">0.72</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">2047834</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">0.71</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0105015012</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|LAR ESPANA REAL ESTATE SOCIMI S</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">6058071</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">1.89</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">11158515</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">3.84</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0178430E18</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|TELEFONICA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">11280771</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">3.89</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0143416115</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|GAMESA CORP TECNOLOGICA SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">9105865</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">3.14</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">17062235</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">5.33</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0132105018</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|ACERINOX SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">12265963</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">4.23</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">10374588</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">3.24</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0105025003</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|MERLIN PROPERTIES SOCIMI SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">8902957</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">2.78</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">9758927</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">3.36</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES06735169A3</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|REPSOL YPF</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">145820</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">0.05</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0118900010</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|FERROVIAL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">8697804</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">2.72</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">7483153</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">2.58</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0129743318</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|ELECTRIFICACIONES DEL NORTE</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">13624645</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">4.69</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">18358374</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">5.73</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0114820113</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|VOCENTO SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">926991</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">0.32</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0113307062</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|BANKIA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">12231293</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">3.82</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">3696965</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">1.27</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0111845014</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|ABERTIS INFRAESTRUCTURAS</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">6378434</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">1.99</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0157097017</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|ALMIRALL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">6854910</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">2.14</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">7095265</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">2.44</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0109427734</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|ATRESMEDIA CORP DE MEDIOS DE CO</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">4341004</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">1.50</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizadaTotal>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">202657442</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">63.31</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">202037135</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">69.60</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizadaTotal>
+            <iic-com:InversionesFinancierasRVNoCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">ES0180907000</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|UNICAJA BANCO</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">15293864</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">4.78</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVNoCotizada>
+            <iic-com:InversionesFinancierasRVNoCotizadaTotal>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">15293864</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">4.78</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVNoCotizadaTotal>
+            <iic-com:InversionesFinancierasRV>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">217951306</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">68.09</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">202037135</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">69.60</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRV>
+            <iic-com:InversionesFinancierasTotalInversion>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">217951306</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">68.09</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">202037135</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">69.60</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasTotalInversion>
+          </iic-com:InversionesFinancierasInterior>
+          <iic-com:InversionesFinancierasExterior>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">PTSEM0AM0004</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|SEMAPA SOCIEDADE DE INVESTIMENT</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">29283301</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">10.09</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">30441420</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">9.51</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">PTALT0AE0002</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|ALTRI SGPS SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">5121486</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">1.60</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">7145630</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">2.46</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">PTIBS0AM0008</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|IBERSOL SGPS SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">16665745</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">5.20</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">16044267</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">5.53</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">PTZON0AM0006</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|NOS SGPS</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">7926097</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">2.48</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">PTGAL0AM0009</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|GALP ENERGIA SGPS SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">11817442</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">3.69</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">12651038</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">4.36</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">PTSON0AM0001</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|SONAE</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">5388311</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">1.86</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">1644641</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">0.51</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_S12017_E60519865_ia">PTEDP0AM0009</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_S12017_E60519865_ia">ACCIONES|EDP   ENERGIAS DE PORTUGAL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_S12017_E60519865_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">4180057</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">1.31</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">4225318</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">1.46</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizadaTotal>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">74737865</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">25.76</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">77796888</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">24.30</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizadaTotal>
+            <iic-com:InversionesFinancierasRV>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">74737865</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">25.76</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">77796888</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">24.30</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRV>
+            <iic-com:InversionesFinancierasTotalInversion>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">74737865</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">25.76</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">77796888</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">24.30</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasTotalInversion>
+          </iic-com:InversionesFinancierasExterior>
+          <iic-com:InversionesFinancierasTotal>
+            <iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ia" unitRef="EUR">295748194</iic-com:InversionesFinancierasValor>
+              <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">92.39</iic-com:InversionesFinancierasPorcentaje>
+            </iic-com:InversionesFinancierasImporte>
+            <iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_S12017_E60519865_ipy" unitRef="EUR">276775000</iic-com:InversionesFinancierasValor>
+              <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_S12017_E60519865_ipy" unitRef="pure">95.36</iic-com:InversionesFinancierasPorcentaje>
+            </iic-com:InversionesFinancierasImporte>
+          </iic-com:InversionesFinancierasTotal>
+          <iic-com:ProductosEstructurados decimals="2" contextRef="FIM_S12017_E60519865_ia" unitRef="pure">0.00</iic-com:ProductosEstructurados>
+        </iic-com:InversionesFinancierasValorEstimado>
+        <iic-com:DistribucionInversionesFinancieras>
+          <iic-com:FicheroAdjunto>
+            <iic-com:NombreFicheroAdjunto contextRef="FIM_S12017_E60519865_da">distribucion.png</iic-com:NombreFicheroAdjunto>
+            <iic-com:TipoMimeFicheroAdjunto contextRef="FIM_S12017_E60519865_da">image/png</iic-com:TipoMimeFicheroAdjunto>
+            <iic-com:ContenidoFicheroAdjunto contextRef="FIM_S12017_E60519865_da">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
+IL/5f2szE4Ce2I/WAAAAAElFTkSuQmCC</iic-com:ContenidoFicheroAdjunto>
+          </iic-com:FicheroAdjunto>
+        </iic-com:DistribucionInversionesFinancieras>
+        <iic-com:OperativaDerivadosPosiciones/>
+      </iic-fim:InversionesFinancierasFIM>
+      <iic-fim:HechosRelevantesFIM>
+        <iic-com-fon:HechoRelevanteSuspensionSuscripciones contextRef="FIM_S12017_E60519865_da">false</iic-com-fon:HechoRelevanteSuspensionSuscripciones>
+        <iic-com-fon:HechoRelevanteReanudacionSuscripciones contextRef="FIM_S12017_E60519865_da">false</iic-com-fon:HechoRelevanteReanudacionSuscripciones>
+        <iic-com-fon:HechoRelevanteReembolsoPatrimonio contextRef="FIM_S12017_E60519865_da">false</iic-com-fon:HechoRelevanteReembolsoPatrimonio>
+        <iic-com:HechoRelevanteEndeudamiento contextRef="FIM_S12017_E60519865_da">false</iic-com:HechoRelevanteEndeudamiento>
+        <iic-com-fon:HechoRelevanteCambioGestora contextRef="FIM_S12017_E60519865_da">false</iic-com-fon:HechoRelevanteCambioGestora>
+        <iic-com-fon:HechoRelevanteCambioDepositaria contextRef="FIM_S12017_E60519865_da">false</iic-com-fon:HechoRelevanteCambioDepositaria>
+        <iic-com-fon:HechoRelevanteCambioControlGestora contextRef="FIM_S12017_E60519865_da">false</iic-com-fon:HechoRelevanteCambioControlGestora>
+        <iic-com:HechoRelevanteCambioEsencial contextRef="FIM_S12017_E60519865_da">false</iic-com:HechoRelevanteCambioEsencial>
+        <iic-com-fon:HechoRelevanteAutorizacionFusion contextRef="FIM_S12017_E60519865_da">false</iic-com-fon:HechoRelevanteAutorizacionFusion>
+        <iic-com:HechoRelevanteOtros contextRef="FIM_S12017_E60519865_da">true</iic-com:HechoRelevanteOtros>
+      </iic-fim:HechosRelevantesFIM>
+      <iic-com:ExplicacionHechosRelevantes contextRef="FIM_S12017_E60519865_da">El informe de auditoria correspondiente al ultimo ejercicio ha sido favorable.
+
+La ponderación actual de la cartera de renta variable del fondo es la siguiente: 
+IGBM:  74%    PSI Geral Index: 26%</iic-com:ExplicacionHechosRelevantes>
+      <iic-fim:OperacionesVinculadasFIM>
+        <iic-com-fon:OperacionesVinculadasParticipesSignificativos contextRef="FIM_S12017_E60519865_da">false</iic-com-fon:OperacionesVinculadasParticipesSignificativos>
+        <iic-com-fon:OperacionesVinculadasModificacionesReglamento contextRef="FIM_S12017_E60519865_da">false</iic-com-fon:OperacionesVinculadasModificacionesReglamento>
+        <iic-com:OperacionesVinculadasMismoGrupoDepoGest contextRef="FIM_S12017_E60519865_da">false</iic-com:OperacionesVinculadasMismoGrupoDepoGest>
+        <iic-com:OperacionesVinculadasOperacionesConDepositario contextRef="FIM_S12017_E60519865_da">false</iic-com:OperacionesVinculadasOperacionesConDepositario>
+        <iic-com:OperacionesVinculadasAvales contextRef="FIM_S12017_E60519865_da">false</iic-com:OperacionesVinculadasAvales>
+        <iic-com:OperacionesVinculadasContrapartidaEnGrupo contextRef="FIM_S12017_E60519865_da">false</iic-com:OperacionesVinculadasContrapartidaEnGrupo>
+        <iic-com:OperacionesVinculadasIngresosEnElGrupo contextRef="FIM_S12017_E60519865_da">false</iic-com:OperacionesVinculadasIngresosEnElGrupo>
+        <iic-com:OperacionesVinculadasOtros contextRef="FIM_S12017_E60519865_da">true</iic-com:OperacionesVinculadasOtros>
+      </iic-fim:OperacionesVinculadasFIM>
+      <iic-com:AnexoOperacionesVinculadas contextRef="FIM_S12017_E60519865_da">Una entidad del grupo del depositario ha percibido comisiones por intermediación de operaciones de renta variable por, importe en miles de euros.: 9,68</iic-com:AnexoOperacionesVinculadas>
+      <iic-com:ExplicacionInformePeriodico contextRef="FIM_S12017_E60519865_da">Visión de la gestora
+
+El valor liquidativo de Bestinver Bolsa F.I. ha aumentado durante el primer semestre de 2017 un 11,95%, hasta 63,74 euros. Durante el mismo periodo, su índice de referencia con dividendos (70% IGBM y 30% PSI) aumentó un 13,19%. El patrimonio de Bestinver Bolsa en el primer semestre del año ha aumentado un 10,3%, hasta 320,24 millones de euros. El número de partícipes se redujo un 1,7% hasta 4.206 a cierre de junio 2017.
+
+A largo plazo, la rentabilidad acumulada del último año y 5 años ha sido del 31% y 103% respectivamente.
+
+Política de inversiones
+
+Como fieles seguidores de la "filosofía value", el círculo de competencia de Bestinver es la valoración de empresas, actividad a la que el equipo de inversiones dedica todos sus esfuerzos. No obstante, aprovechamos las ineficiencias que se producen en el mercado a corto plazo para rotar la cartera, tomando o deshaciendo posiciones según la evolución de las cotizaciones de cada una de las compañías que conforman la cartera. 
+En lo que respecta a decisiones generales de inversión, hemos aprovechado para rotar las carteras en lo que llevamos de año con incrementos de posición en empresas como Gamesa, al creer que la acción, a este precio, aún no refleja el valor del acuerdo alcanzado con Siemens en relación a la fusión.
+Hemos entrado en NOS SGPS, empresa líder de telecomunicaciones en Portugal (número 2 con una amplia cuota de mercado). El mercado ha castigado mucho la cotización debido a tres revisiones al alza en las estimaciones de CapEx. Pensamos que la valoración de NOS es atractiva. También en Unicaja, banco bien gestionado con un buen equipo directivo y gran cuota de mercado en las regiones en las que opera (principalmente Andalucía y Castilla y León). Consideramos que además de estar bien capitalizado y provisionado, tiene un gran potencial de mejora de rentabilidad y ROE (5% hoy y target es 8-9%) en el largo plazo. La valoración es atractiva a 0.5x Valor en Libros.
+
+Hemos reducido posición en Sonae, LAR España y Altri por la buena evolución de su cotización que había supuesto una reducción del margen de seguridad. También, en Semapa dado el buen comportamiento de la cotización, y para diversificar la cartera hacia nuevas oportunidades.
+
+Hemos salido de empresas como Atresmedia, Mapfre y Telefónica por la buena evolución de su cotización que había supuesto una reducción del margen de seguridad. También de Vocento, dado que las nuevas tendencias en publicidad hacen que la publicidad en prensa escrita esté disminuyendo de forma considerable pese al buen equipo directivo de Vocento. Sin olvidar Pescanova que ha vuelto a cotizar y no vemos valor tras la restructuración llevada a cabo.
+
+Al final del primer semestre de 2017, la cartera ibérica cotiza a un PER de 10,9x con un potencial de revalorización del 38%.
+
+A la fecha de emisión de este informe, no se ha previsto la modificación de la política de inversión del fondo.
+
+La siguiente compañía están suspendidas o en liquidación: AC Hullera Vasco Leonesa.
+
+El VAR del fondo a 30 de junio es de 6,55%. 
+
+La política de Bestinver Gestión, S.A., SGIIC en relación al ejercicio de los derechos políticos inherentes a los valores en cartera de sus IIC garantiza el adecuado seguimiento de los distintos hechos empresariales, tanto en España como en terceros Estados, su adecuación a los objetivos y a la política de inversión de cada IIC y, también, que las eventuales situaciones de conflicto de interés sean gestionadas adecuadamente. Bestinver Gestión, S.A. SGIIC ejerce los derechos de asistencia y voto en las Juntas Generales de Accionistas de todas las sociedades españolas en las que sus IIC bajo gestión tienen participación con una antigüedad superior a doce meses y al 1% del capital social de la sociedad participada y, también, en aquellos otros casos que se considera por el Departamento de Inversiones conveniente para las IIC gestionadas. 
+
+Durante el primer semestre se ha ejercido el derecho de voto en las siguientes sociedades: Ferrovial, Caixabank, Vocento, Viscofan, Bolsa y Mercados, Lar España Real, Elecnor, Semapa, Ibersol, Telefónica, Caf, Miquel y Costa, Corporación Financiera Alba, Gamesa, Euskaltel, Indra, Barón de Ley, Pescanova, Bankinter, Bankia y ha sido favorable a las propuestas realizadas por el consejo de administración de las sociedades.
+
+El ratio de gastos sobre el patrimonio medio ha sido el siguiente: en el semestre el 0,89%, y acumulado en el año el 0,89%. En este ratio está incluida la comisión de gestión, la comisión del depositario, y otros gastos de gestión corriente.
+
+El fondo soporta gastos derivados del servicio de análisis prestado por varios intermediarios financieros. Los análisis recibidos se refieren en todo caso a valores incluidos dentro del ámbito de  inversión de las IIC bajo gestión y su contribución en el proceso de toma de decisiones de inversión es valorada positivamente por el Departamento de Inversiones de la sociedad gestora.</iic-com:ExplicacionInformePeriodico>
+      <iic-com:AdvertenciasCNMV contextRef="FIM_S12017_E60519865_da">Sin advertencias</iic-com:AdvertenciasCNMV>
+    </iic-fim:DatosFondoCompartimentoFIM>
+  </iic-fim:InformeFIM>
+  <iic-ges:ComparativaRentabilidadMedia>
+    <iic-ges:ComparativaVocacionRentaFijaEuroPatrimonio decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="EUR">229458436</iic-ges:ComparativaVocacionRentaFijaEuroPatrimonio>
+    <iic-ges:ComparativaVocacionRentaFijaEuroParticipes decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="pure">2042</iic-ges:ComparativaVocacionRentaFijaEuroParticipes>
+    <iic-ges:ComparativaVocacionRentaFijaEuroRentabilidad decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">-0.02</iic-ges:ComparativaVocacionRentaFijaEuroRentabilidad>
+    <iic-ges:ComparativaVocacionRentaVariableMixtaEuroPatrimonio decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="EUR">38270609</iic-ges:ComparativaVocacionRentaVariableMixtaEuroPatrimonio>
+    <iic-ges:ComparativaVocacionRentaVariableMixtaEuroParticipes decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="pure">997</iic-ges:ComparativaVocacionRentaVariableMixtaEuroParticipes>
+    <iic-ges:ComparativaVocacionRentaVariableMixtaEuroRentabilidad decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">7.65</iic-ges:ComparativaVocacionRentaVariableMixtaEuroRentabilidad>
+    <iic-ges:ComparativaVocacionRentaVariableMixtaInternacionalPatrimonio decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="EUR">106250252</iic-ges:ComparativaVocacionRentaVariableMixtaInternacionalPatrimonio>
+    <iic-ges:ComparativaVocacionRentaVariableMixtaInternacionalParticipes decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="pure">2086</iic-ges:ComparativaVocacionRentaVariableMixtaInternacionalParticipes>
+    <iic-ges:ComparativaVocacionRentaVariableMixtaInternacionalRentabilidad decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">4.98</iic-ges:ComparativaVocacionRentaVariableMixtaInternacionalRentabilidad>
+    <iic-ges:ComparativaVocacionRentaVariableEuroPatrimonio decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="EUR">306965174</iic-ges:ComparativaVocacionRentaVariableEuroPatrimonio>
+    <iic-ges:ComparativaVocacionRentaVariableEuroParticipes decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="pure">4206</iic-ges:ComparativaVocacionRentaVariableEuroParticipes>
+    <iic-ges:ComparativaVocacionRentaVariableEuroRentabilidad decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">11.95</iic-ges:ComparativaVocacionRentaVariableEuroRentabilidad>
+    <iic-ges:ComparativaVocacionRentaVariableInternacionalPatrimonio decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="EUR">3493134604</iic-ges:ComparativaVocacionRentaVariableInternacionalPatrimonio>
+    <iic-ges:ComparativaVocacionRentaVariableInternacionalParticipes decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="pure">30063</iic-ges:ComparativaVocacionRentaVariableInternacionalParticipes>
+    <iic-ges:ComparativaVocacionRentaVariableInternacionalRentabilidad decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">8.04</iic-ges:ComparativaVocacionRentaVariableInternacionalRentabilidad>
+    <iic-ges:ComparativaVocacionTotalPatrimonio decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="EUR">4174079075</iic-ges:ComparativaVocacionTotalPatrimonio>
+    <iic-ges:ComparativaVocacionTotalParticipes decimals="0" contextRef="FIM_S12017_E60519865_da" unitRef="pure">39394</iic-ges:ComparativaVocacionTotalParticipes>
+    <iic-ges:ComparativaVocacionTotalRentabilidad decimals="2" contextRef="FIM_S12017_E60519865_da" unitRef="pure">7.80</iic-ges:ComparativaVocacionTotalRentabilidad>
+  </iic-ges:ComparativaRentabilidadMedia>
+</xbrli:xbrl>
