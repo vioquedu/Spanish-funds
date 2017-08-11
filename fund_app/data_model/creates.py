@@ -2,8 +2,8 @@
 """
 
 
-from .tables import (Firm, Fund)
-from ..settings import session_scope
+from data_model.tables import (Firm, Fund)
+from settings import session_scope
 
 class CreateMethod(object):
     """General class used to create classes.

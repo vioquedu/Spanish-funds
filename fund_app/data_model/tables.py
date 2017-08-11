@@ -36,8 +36,10 @@ class Fund(BASE):
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     name = Column(String(45), nullable=True)
+    isin_code = Column(String(45), nullable=True)
     firm_id = Column(Integer, ForeignKey('firms.id'), nullable=False)
     firm = relationship(Firm)
+
 
     def __str__(self):
         return "<Fund(id: {}; name: {}; firm_id {}>".format(

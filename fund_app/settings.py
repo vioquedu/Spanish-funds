@@ -4,8 +4,8 @@
 from contextlib import contextmanager
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from .env_file import DATABASE_URL
-from .data_model.tables import BASE
+from env_file import DATABASE_URL
+from data_model.tables import BASE
 
 def database_creation():
     """Create all tables
