@@ -7,7 +7,7 @@ __pycache__/
 *.so
 *~
 env_file.py
-
+alembic.ini
 # Distribution / packaging
 .Python
 env/
