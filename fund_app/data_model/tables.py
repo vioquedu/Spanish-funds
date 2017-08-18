@@ -34,12 +34,11 @@ class Fund(BASE):
     """
     __tablename__ = 'funds'
 
-    id = Column(Integer, primary_key=True, autoincrement=True)
+    nif = Column(String(45), primary_key=True, nullable=False)
     name = Column(String(45), nullable=True)
     isin_code = Column(String(45), nullable=True)
     firm_id = Column(Integer, ForeignKey('firms.id'), nullable=False)
     firm = relationship(Firm)
-
 
     def __str__(self):
         return "<Fund(id: {}; name: {}; firm_id {}>".format(
@@ -54,6 +53,7 @@ class FundSubmission(BASE):
     * id: PK, integer.
     * eop: Ending of period. Date.
     * bop: Begining of period. Date.
+    * period: Type of period for which the report is submitted (H, Q)
     * fund_id: Fund of the submission.
     """
     __tablename__ = 'fund_submission'
@@ -61,29 +61,27 @@ class FundSubmission(BASE):
     id = Column(Integer, primary_key=True, autoincrement=True)
     eop = Column(Date, nullable=False)
     bop = Column(Date, nullable=False)
-    fund_id = Column(Integer, ForeignKey('funds.id'), nullable=False)
-    fund = relationship(Fund)
+    period = Column(String(45), nullable=True)
+    fund_nif = Column(String(45), ForeignKey('funds.nif'), nullable=False)
+    fund = relationship(Fund, foreign_keys=[fund_nif])
 
     def __str__(self):
         return "<FundSubmission(id: {}; eop: {:%Y-%m-%d}; bop: {:%Y-%m-%d}; fund_id: {}>".format(
             self.id
             ,self.eop
             ,self.bop
-            ,self.fund_id
+            ,self.fund_nif
             )
 
 class Company(BASE):
     """Company table.
 
-    * id: PK, integer
     * name: Company name.
     * ISIN_code: Company ISIN code
     """
     __tablename__ = 'company'
-
-    id = Column(Integer, primary_key=True, autoincrement=True)
+    isin = Column(String(45), primary_key=True, nullable=False)
     name = Column(String(45), nullable=False)
-    isin = Column(String(45), nullable=False)
 
     def __str__(self):
         return "<Company(id: {}; name: {}; isin: {}>".format(
@@ -102,7 +100,7 @@ class CompanySubmission(BASE):
     __tablename__ = 'company_submission'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    company_id = Column(Integer, ForeignKey('company.id'), nullable=False)
+    company_isin = Column(String(45), ForeignKey('company.isin'), nullable=False)
     fund_submission_id = Column(Integer, ForeignKey('fund_submission.id'), nullable=False)
     eop_value = Column(Numeric, nullable=True)
     eop_pct = Column(Numeric, nullable=True)
@@ -110,12 +108,11 @@ class CompanySubmission(BASE):
     bop_pct = Column(Numeric, nullable=True)
 
     # Relationship
-    company = relationship(Company)
+    company = relationship(Company, foreign_keys=[company_isin])
     fund_submission = relationship(FundSubmission)
 
     def __str__(self):
-        return "<CompanySubmission(id: {}; company_id: {}; fund_submission_id: {}>".format(
+        return "<CompanySubmission(id: {}; fund_submission_id: {}>".format(
             self.id
-            ,self.company_id
             ,self.fund_submission_id
             )
